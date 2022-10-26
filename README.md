@@ -10,9 +10,3 @@ fish prompt
     ```sh
     fisher install grimoh/fish-prompt
     ```
-* setup config.fish
-
-    ```fish
-    function fish_mode_prompt
-    end
-    ```
