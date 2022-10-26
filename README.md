@@ -1,6 +1,8 @@
 # fish-prompt
 
-fish prompt
+fish shell prompt
+
+![](images/fish-prompt.png)
 
 ## Install
 
