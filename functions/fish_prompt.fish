@@ -20,8 +20,20 @@ function fish_prompt
     end
 end
 
+function cmd_duration
+    set --local secs (math --scale=1 $CMD_DURATION/1000 % 60)
+    set --local mins (math --scale=0 $CMD_DURATION/60000 % 60)
+    set --local hours (math --scale=0 $CMD_DURATION/3600000)
+
+    test $hours -gt 0 && set --local --append out $hours"h"
+    test $mins -gt 0 && set --local --append out $mins"m"
+    test $secs -gt 0 && set --local --append out $secs"s"
+
+    set --query out && echo $out || echo $CMD_DURATION"ms"
+end
+
 # right side prompt
 function fish_right_prompt
     set_color f1fa8c
-    echo $CMD_DURATION
+    echo (cmd_duration)
 end
