@@ -2,7 +2,7 @@
 
 Fish prompt for minimalists as well as vampires.
 
-![](images/fish-prompt.png)
+![](images/prompt.png)
 
 ## Installation
 
