@@ -1,10 +1,10 @@
 # fish-prompt
 
-fish shell prompt
+Fish prompt for minimalists as well as vampires.
 
 ![](images/fish-prompt.png)
 
-## Install
+## Installation
 
 * install [Fisher](https://github.com/jorgebucaran/fisher)
 * install this plugin
@@ -12,3 +12,7 @@ fish shell prompt
     ```sh
     fisher install grimoh/fish-prompt
     ```
+
+## License
+
+[MIT](LICENSE)
