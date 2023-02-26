@@ -11,7 +11,7 @@ function fish_prompt
                 set_color bd93f9
             case insert
                 set_color 50fa7b
-            case replace-one
+            case replace_one
                 set_color ff5555
             case visual
                 set_color ff79c6
